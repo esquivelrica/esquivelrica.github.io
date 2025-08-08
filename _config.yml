@@ -1,3 +1,7 @@
-remote_theme: minimal-mistakes-jekyll
-title: Rica's homepage
+title: Rica's Portfolio
 description: About me!
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+plugins:
+  - jekyll-include-cache
+  
