@@ -9,11 +9,11 @@
 
 // Styles intro container
 .intro {
-  display: flex;            // flexbox layout
-  flex-direction: column;   // stacks content vertically
-  align-items: center;      // centers items horizontally
-  text-align: center;       // centers text
-  padding: 2rem 1rem;       // space inside the container
+  display: flex !important;            // flexbox layout
+  flex-direction: column !important;   // stacks content vertically
+  align-items: center !important;      // centers items horizontally
+  text-align: center !important;       // centers text
+  padding: 2rem 1rem !important;       // space inside the container
 }
 // Styles profile image in intro
 .profile-pic {
