@@ -4,6 +4,7 @@ description: >-
   Showcasing technical projects, internships, leadership experience, and personal interests.
 remote_theme: "mmistakes/minimal-mistakes"
 
+
 include:
   - _pages
 

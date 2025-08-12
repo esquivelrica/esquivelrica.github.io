@@ -1,6 +1,7 @@
 ---
 layout: home
 author_profile: true
+title: "Welcome to my portfolio!"
 ---
 
 <!-- Intro Section -->
