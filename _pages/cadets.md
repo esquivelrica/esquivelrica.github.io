@@ -1,6 +1,6 @@
 ---
 title: "Corps of Cadets"
-permalink: /cadets
+permalink: /cadets/
 layout: single
 ---
 

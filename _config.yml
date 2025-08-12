@@ -2,6 +2,15 @@ title: Rica's Portfolio
 description: About me!
 remote_theme: "mmistakes/minimal-mistakes"
 
+include:
+  - _pages
+
 plugins:
   - jekyll-include-cache
   
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
