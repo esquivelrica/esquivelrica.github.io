@@ -1,3 +1,4 @@
+---
 title: "Beyond the Office"
 permalink: /beyond-the-office/
 layout: single
