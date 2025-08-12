@@ -1,8 +1,6 @@
 ---
 layout: home
-author_profile: false
-title: ""
-header: false
+author_profile: true
 ---
 
 <!-- Intro Section -->
@@ -45,13 +43,13 @@ header: false
     <i class="fas fa-bullseye"></i>
     Goals & Specialization
   </a>
-  <a class="card" href="{{ '/blog/' | relative_url }}">
+  <!-- <a class="card" href="{{ '/blog/' | relative_url }}">
     <i class="fas fa-pen-nib"></i>
     Blog
-  </a>
+  </a> -->
 </div>
 
-## Beyond the Office
+<!-- ## Beyond the Office
 <div class="beyond-office">
   <div class="hobby">
     <img src="{{ '/assets/hobbies/hiking.jpg' | relative_url }}" alt="Hiking trail view">
@@ -72,7 +70,7 @@ header: false
 
 <p style="text-align:center; margin-top:1rem;">
   <a href="{{ '/beyond-the-office/' | relative_url }}" class="btn">Learn More →</a>
-</p>
+</p> -->
 
 <!-- ### Recent Posts
 <div class="post-previews">
