@@ -13,7 +13,8 @@ author_profile: true
       <a href="https://www.linkedin.com/in/rica-esquivel/" target="_blank" class="btn">LinkedIn</a>
       <a href="assets/Rica_Esquivel_Resume.pdf" 
       target="_blank" class="btn">View Resume</a>
-      <a href="https://www.goodreads.com/user/show/188499200-rica-esquivel" target="_blank" class="btn>GoodReads</a>
+      <a href="https://github.com/esquivelrica" target="_blank" class="btn">GitHub</a>
+      <a href="https://www.goodreads.com/user/show/188499200-rica-esquivel" target="_blank" class=btn>GoodReads</a>
     </div>
   </div>
 </section>

@@ -37,7 +37,6 @@
 // Styles container holding linkedin/resume buttons
 .button-group {
   display: flex;            
-  flex-direction: column;   // vertically line up
   gap: 1rem;                // space between buttons
   flex-wrap: wrap;          // buttons wrap on smaller screens
   justify-content: center;  // horizontally center buttons
@@ -81,7 +80,7 @@
 // Styles card container for portfolio sections
 .cards {
   display: flex;                // side-by-side layout
-  flex-wrap: wrap;              // wrap to next line if needed  
+  flex-direction: column;       // wrap to next line if needed  
   gap: 1rem;                    // space between cards
   margin-top: 1.5rem;           // space above card section
 }
