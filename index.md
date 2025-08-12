@@ -28,3 +28,18 @@ author_profile: true
   <a class="card" href="{{ '/goals/' | relative_url }}">Goals & Specialization</a>
   <a class="card" href="{{ '/blog/' | relative_url }}">Blog</a>
 </div>
+
+### Recent Posts
+<div class="post-previews">
+{% for post in site.posts limit:3 %}
+  <a class="post-preview" href="{{ post.url | relative_url }}">
+    {% if post.header and post.header.teaser %}
+      <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }} teaser">
+    {% endif %}
+    <h3>{{ post.title }}</h3>
+    <p class="meta">{{ post.date | date: "%B %d, %Y" }}</p>
+    <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+  </a>
+{% endfor %}
+</div>
+<p><a class="btn" href="{{ '/blog/' | relative_url }}">View all posts →</a></p>
