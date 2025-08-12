@@ -13,6 +13,7 @@ author_profile: true
       <a href="https://www.linkedin.com/in/rica-esquivel/" target="_blank" class="btn">LinkedIn</a>
       <a href="assets/Rica_Esquivel_Resume.pdf" 
       target="_blank" class="btn">View Resume</a>
+      <a href="https://www.goodreads.com/user/show/188499200-rica-esquivel" target="_blank" class="btn>GoodReads</a>
     </div>
   </div>
 </section>
@@ -29,7 +30,7 @@ author_profile: true
   <a class="card" href="{{ '/blog/' | relative_url }}">Blog</a>
 </div>
 
-### Recent Posts
+<!-- ### Recent Posts
 <div class="post-previews">
 {% for post in site.posts limit:3 %}
   <a class="post-preview" href="{{ post.url | relative_url }}">
@@ -42,4 +43,4 @@ author_profile: true
   </a>
 {% endfor %}
 </div>
-<p><a class="btn" href="{{ '/blog/' | relative_url }}">View all posts →</a></p>
+<p><a class="btn" href="{{ '/blog/' | relative_url }}">View all posts →</a></p> -->
