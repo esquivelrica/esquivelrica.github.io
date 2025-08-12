@@ -21,10 +21,10 @@ author_profile: true
 
 ## Explore My Portfolio
 <div class="cards">
-  <a class="card" href="{{ '/cadets' | relative_url }}">Corps of Cadets</a>
-  <a class="card" href="{{ '/internships-tractor' | relative_url }}">Internship: Tractor Supply</a>
-  <a class="card" href="{{ '/internships-hii' | relative_url }}">Internship: HII Mission Technologies</a>
-  <a class="card" href="{{ '/projects' | relative_url }}">Technical Projects</a>
-  <a class="card" href="{{ '/goals' | relative_url }}">Goals & Specialization</a>
-  <a class="card" href="{{ '/blog' | relative_url }}">Blog</a>
+  <a class="card" href="{{ '/cadets/' | relative_url }}">Corps of Cadets</a>
+  <a class="card" href="{{ '/internships-tractor/' | relative_url }}">Internship: Tractor Supply</a>
+  <a class="card" href="{{ '/internships-hii/' | relative_url }}">Internship: HII Mission Technologies</a>
+  <a class="card" href="{{ '/projects/' | relative_url }}">Technical Projects</a>
+  <a class="card" href="{{ '/goals/' | relative_url }}">Goals & Specialization</a>
+  <a class="card" href="{{ '/blog/' | relative_url }}">Blog</a>
 </div>
