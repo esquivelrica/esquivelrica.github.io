@@ -1,86 +1,172 @@
 ---
 ---
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // theme skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // theme skin colors/styles
 @import "minimal-mistakes"; // main theme styles
 
-/* Custom Intro Section Styles */
+/* ============================
+   Custom Intro Section Styles
+   ============================ */
+
+// Styles intro container
 .intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 2rem 1rem;
+  display: flex;            // flexbox layout
+  flex-direction: column;   // stacks content vertically
+  align-items: center;      // centers items horizontally
+  text-align: center;       // centers text
+  padding: 2rem 1rem;       // space inside the container
 }
+// Styles profile image in intro
 .profile-pic {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 1rem;
+  width: 150px;             // image width
+  height: 150px;            // image height
+  object-fit: cover;        // image covers frame without distortion
+  border-radius: 50%;       // make image ciruclar
+  margin-bottom: 1rem;      // add space below image
 }
+// Styles main heading (Name) inside the intro text
 .intro-text h1 {
-  font-size: 2rem;
-  margin: 0.5rem 0;
+  font-size: 2rem;          // enlarge
+  margin: 0.5rem 0;         // small spacing above and below
 }
+// Styles paragraph text inside intro
 .intro-text p {
-  max-width: 600px;
-  margin: 0 0 1.5rem;
-  line-height: 1.6;
+  max-width: 600px;         // limits width for readability
+  margin: 0 0 1.5rem;       // space below paragraph
+  line-height: 1.6;         // improves text readability 
 }
+// Styles container holding linkedin/resume buttons
 .button-group {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: flex;            // lay buttons side-by-side
+  gap: 1rem;                // space between buttons
+  flex-wrap: wrap;          // buttons wrap on smaller screens
+  justify-content: center;  // horizontally center buttons
 }
+// Styles each button
 .btn {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0.6em 1.2em;
-  border-radius: 0.3em;
-  background-color: #0077b5;
-  color: #fff;
-  font-weight: bold;
+  display: inline-block;    // padding/margins
+  text-decoration: none;    // remove underline from links
+  padding: 0.6em 1.2em;     // space inside button
+  border-radius: 0.3em;     // rounded corners
+  background-color: #0077b5;    // linkedin-style blue
+  color: #fff;            // white text
+  font-weight: bold;        // bold text
 }
+// Button hover effect
 .btn:hover {
-  background-color: #005582;
+  background-color: #005582; // darker blue on hover
 }
+
+
+// Styles for larger screens (768px and up)
 @media (min-width: 768px) {
   .intro {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
+    flex-direction: row;        // switch to side-by-side layout
+    justify-content: center;    // center horizontally
+    align-items: center;        // align vertically
+    text-align: left;           // left-align text for better reading flow
   }
   .profile-pic {
-    width: 180px;
-    height: 180px;
-    margin-bottom: 0;
-    margin-right: 2rem;
+    width: 180px;               // slightly larger profile image
+    height: 180px;             
+    margin-bottom: 0;           // remove bottom margin in row layout
+    margin-right: 2rem;         // add space between image and text  
   }
 }
+
+/* ============================
+   Portfolio Cards Section
+   ============================ */
+
+// Styles card container for portfolio sections
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1.5rem;
+  display: flex;                // side-by-side layout
+  flex-wrap: wrap;              // wrap to next line if needed  
+  gap: 1rem;                    // space between cards
+  margin-top: 1.5rem;           // space above card section
 }
+
+// Styles individual cards
 .card {
-  flex: 1 1 calc(33% - 1rem);
-  background: #f5f5f5;
-  padding: 1rem;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-  border-radius: 8px;
-  transition: background 0.3s;
+  flex: 1 1 calc(33% - 1rem);   // 3 cards per row with spacing
+  background: #f5f5f5;        // light gray background
+  padding: 1rem;                // internal spacing
+  text-align: center;           // center text in card
+  font-weight: bold;            // bold titles
+  text-decoration: none;        // remove underline on link
+  color: #333;                // dark text
+  border-radius: 8px;           // rounded corner
+  transition: background 0.3s;  // smooth background transition
 }
+
+// Card hover effect
 .card:hover {
-  background: #e0e0e0;
+  background: #e0e0e0;        // darker gray on hover
 }
+
+// Responsive: full-width cards on small screens
 @media (max-width: 768px) {
   .card {
     flex: 1 1 100%;
   }
+}
+
+/* ============================
+   Recent Posts Grid on Homepage
+   ============================ */
+
+// Grid layout for recent blog post previews
+.post-previews {
+  display: grid;                // grid layout
+  grid-template-columns: repeat(3, minmax(0, 1fr)); // 3 equal-width columns
+  gap: 1rem;                    // space between grid items
+  margin-top: 1rem;             // space above section
+}
+
+// Styles for each blog post preview card
+.post-preview {
+  display: block;               // makes the link block-level
+  background: #f7f7f7;        // light gray background
+  padding: 1rem;                // internal spacing 
+  border-radius: 10px;          // rounded corners
+  text-decoration: none;        // remove underline
+  color: inherit;               // use default text color
+  transition: transform .15s ease, background .2s ease; // smooth hover effects 
+}
+
+// Hover effect for post previews
+.post-preview:hover {
+  background: #eee;          // Slightly darker gray on hover
+  transform: translateY(-2px); // lift effect
+}
+
+// Styles for teaser image in post preview
+.post-preview img {
+  width: 100%;                 // full width of container
+  height: 160px;               // fixed height
+  object-fit: cover;           // crop to fill container
+  border-radius: 8px;          // rounded corners
+  margin-bottom: .75rem;       // space below image
+}
+
+// Post title styling
+.post-preview h3 {
+  margin: 0 0 .25rem;          // space below title
+  font-size: 1.1rem;           // slightly smaller heading
+}
+
+// Metadata styling (date, category, etc.)
+.post-preview .meta {   
+  font-size: .9rem;            // slightly smaller text
+  opacity: .8;                 // slightly faded
+  margin: 0 0 .5rem;           // space below meta line
+}
+
+// Responsive: 2 column on medium screens
+@media (max-width: 900px) {
+  .post-previews { grid-template-columns: 1fr 1fr; }
+}
+
+// Responsive: 1 column on small screens
+@media (max-width: 640px) {
+  .post-previews { grid-template-columns: 1fr; }
 }
