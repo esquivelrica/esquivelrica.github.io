@@ -170,3 +170,36 @@
 @media (max-width: 640px) {
   .post-previews { grid-template-columns: 1fr; }
 }
+
+/* Beyond the Office Section */
+.beyond-office {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.beyond-office .hobby img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.beyond-office .hobby h3 {
+  margin: 0.5rem 0 0.25rem;
+}
+
+.beyond-office .hobby p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .beyond-office {
+    grid-template-columns: 1fr;
+  }
+}

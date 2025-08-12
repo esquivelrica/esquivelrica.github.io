@@ -6,6 +6,7 @@ author_profile: true
 <!-- Intro Section -->
 <section class="intro">
   <img src="assets/Profile.png" alt="Profile picture of Rica Esquivel" class="profile-pic">
+  
   <div class="intro-text">
     <h1>Rica Esquivel</h1>
     <p>Hello, I'm Rica – a Computer Science undergraduate at Virginia Tech, graduating in December 2025. I've interned in data science and machine learning roles at Tractor Supply Company and HII Mission Technologies, applying my skills in Python, SQL, Java, R, and C. I'm experienced in machine learning, natural language processing (NLP), and working with cloud/data platforms like Snowflake and AWS.</p>
@@ -30,6 +31,29 @@ author_profile: true
   <a class="card" href="{{ '/goals/' | relative_url }}">Goals & Specialization</a>
   <a class="card" href="{{ '/blog/' | relative_url }}">Blog</a>
 </div>
+
+## Beyond the Office
+<div class="beyond-office">
+  <div class="hobby">
+    <img src="{{ '/assets/hobbies/hiking.jpg' | relative_url }}" alt="Hiking trail view">
+    <h3>Hiking</h3>
+    <p>I love exploring trails and connecting with nature, from local paths to challenging summits.</p>
+  </div>
+  <div class="hobby">
+    <img src="{{ '/assets/hobbies/fitness.jpg' | relative_url }}" alt="Weights and gym equipment">
+    <h3>Fitness</h3>
+    <p>Personal fitness is my way of staying focused, energized, and balanced in life.</p>
+  </div>
+  <div class="hobby">
+    <img src="{{ '/assets/hobbies/cooking.jpg' | relative_url }}" alt="A plated meal">
+    <h3>Cooking</h3>
+    <p>In my kitchen, I experiment with recipes and flavors, making meals for friends and family.</p>
+  </div>
+</div>
+
+<p style="text-align:center; margin-top:1rem;">
+  <a href="{{ '/beyond-the-office/' | relative_url }}" class="btn">Learn More →</a>
+</p>
 
 <!-- ### Recent Posts
 <div class="post-previews">
