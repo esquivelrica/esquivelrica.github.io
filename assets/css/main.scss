@@ -35,6 +35,12 @@
   line-height: 1.6;         // improves text readability 
 }
 
+// header image
+.page__hero--overlay .page__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .intro-text {
   line-height: 1.8; /* Improves readability */
   font-size: 1.05rem;
