@@ -44,20 +44,18 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
 
 ## Photo Highlights
 <div class="post-previews" style="grid-template-columns: repeat(3, 1fr);">
-  <a class="post-preview" href="{{ '/assets/corps/formation.jpg' | relative_url }}">
-    <img src="{{ '/assets/corps/formation.jpg' | relative_url }}" alt="Formation">
-    <h3>Formation</h3>
-    <p class="meta">Discipline and precision</p>
+  <a class="post-preview" href="{{ '/assets/milball.jpg' | relative_url }}">
+    <img src="{{ '/assets/milball.jpg' | relative_url }}" alt="Military Balls">
+    <h3>Tradition</h3>
   </a>
-  <a class="post-preview" href="{{ '/assets/corps/awards.jpg' | relative_url }}">
-    <img src="{{ '/assets/corps/awards.jpg' | relative_url }}" alt="Awards">
-    <h3>Awards</h3>
-    <p class="meta">Recognition for performance</p>
+  <a class="post-preview" href="{{ '/assets/bravostreambank.jpg' | relative_url }}">
+    <img src="{{ '/assets/bravostreambank.jpg' | relative_url }}" alt="Bravo Companpy after Streambank cleanup">
+    <h3>Service</h3>
   </a>
-  <a class="post-preview" href="{{ '/assets/corps/ceremony.jpg' | relative_url }}">
-    <img src="{{ '/assets/corps/ceremony.jpg' | relative_url }}" alt="Ceremony">
-    <h3>Ceremony</h3>
-    <p class="meta">Tradition and leadership</p>
+  <a class="post-preview" href="{{ '/assets/uniform.jpg' | relative_url }}">
+    <img src="{{ '/assets/uniform.jpg' | relative_url }}" alt="Military Conduct">
+    <h3>Leadership and Discipline</h3>
+    <p class="meta">Leadership and Discipline</p>
   </a>
 </div>
 
