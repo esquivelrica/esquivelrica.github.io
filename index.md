@@ -43,10 +43,10 @@ author_profile: true
     <i class="fas fa-ship"></i>
     Internship: HII Mission Technologies
   </a>
-  <a class="card" href="{{ '/projects/' | relative_url }}">
+  <!-- <a class="card" href="{{ '/projects/' | relative_url }}">
     <i class="fas fa-code"></i>
     Technical Projects
-  </a>
+  </a> -->
     <a class="card" href="{{ '/cadets/' | relative_url }}">
     <i class="fas fa-shield-halved"></i>
     Corps of Cadets

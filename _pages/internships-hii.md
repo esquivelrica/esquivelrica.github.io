@@ -3,7 +3,7 @@ title: "HII Mission Technologies"
 permalink: /internships-hii/
 layout: single
 header:
-  overlay_image: /assets/images/hiilobby.jpg 
+  overlay_image: /assets/images/hiiship.jpg 
   overlay_filter: 0.25
   caption: "USS John C. Stennis (CVN-74) Refueling and Complex Overhaul (RCOH) Tour"
 ---
