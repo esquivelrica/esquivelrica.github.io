@@ -35,10 +35,17 @@
   line-height: 1.6;         // improves text readability 
 }
 
-// header image
+// header image overlay
 .page__hero--overlay .page__title {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.page__hero-image img,
+.page__hero img {
+  width: 100%;
+  max-width: none;
+  height: auto;
 }
 
 .tech-stack {

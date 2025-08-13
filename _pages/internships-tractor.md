@@ -8,7 +8,7 @@ header:
   caption: "Tractor Supply Co Store Support Center in Brentwood, TN"
 ---
 
-May 2024 – August 2024
+May 2025 – August 2025
 
 <section class="tech-stack">
   <h2>Tech Stack</h2>
@@ -21,6 +21,8 @@ May 2024 – August 2024
     <img src="{{ '/assets/logos/github.svg' | relative_url }}" alt="GitHub" title="GitHub">
   </div>
 </section>
+
+---
 
 ## Overview
 Worked on an enterprise-scale machine learning initiative to reduce order cancellations in the Buy Online, Pickup In Store (BOPIS) fulfillment channel, directly impacting customer satisfaction and operational efficiency.
@@ -40,3 +42,5 @@ Worked on an enterprise-scale machine learning initiative to reduce order cancel
 - Reduced last-minute order cancellations and improved BOPIS order fulfillment reliability.
 - Delivered model insights that were adopted in weekly operational planning across stores.
 - $1.5M-$3M in annual revenue lost recapture.
+
+---
