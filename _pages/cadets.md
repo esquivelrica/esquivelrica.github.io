@@ -4,14 +4,12 @@ permalink: /cadets/
 layout: single
 header:
   overlay_image: /assets/images/vtbarracks.jpg 
-  overlay_filter: 0.25
+  overlay_filter: 0.40
   caption: "Virginia Tech Corps of Cadets Dorms"
 ---
 
-<!-- ===== Skills / Core Competencies (icons optional) ===== -->
+<h2>Competencies</h2>
 <div class="tech-stack" style="justify-content:center; margin: 1rem 0 2rem;">
-  <!-- Optional Font Awesome icons; requires head include -->
-  <h2>Competencies</h2>
   <span title="Leadership" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-user-tie"></i> Leadership</span>
   <span title="Team Management" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-users"></i> Team Management</span>
   <span title="Strategic Planning" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-chess-knight"></i> Strategic Planning</span>
@@ -25,12 +23,11 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
 ---
 
 ## Timeline of Roles & Highlights
-| Year | Role / Position | Highlights |
+| Year | Role or Position | Highlights |
 |---|---|---|
 | 2021 | Cadet | Completed foundational training; developed discipline, accountability, and teamwork. |
 | 2022 | Squad Leader | Mentored 10+ cadets; led weekly drills; improved cohesion with structured feedback. |
-| 2023 | Company First Sergeant | Managed admin & readiness; coordinated events; streamlined comms across leaders. |
-| 2024 | Battalion Staff / Commander *(example)* | Oversaw ~200 cadets; planned operations and ceremonies; represented the Corps publicly. |
+| 2023-24 | Company Community Service Project Manager | Planned and Executed cleanup operations of 50 cadets. |
 
 > Replace titles/years with your exact roles. We can turn each role into its own subpage later if you want.
 
