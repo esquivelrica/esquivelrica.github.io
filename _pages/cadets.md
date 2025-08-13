@@ -23,13 +23,22 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
 ---
 
 ## Timeline of Roles & Highlights
-| Year | Role or Position | Highlights |
-|---|---|---|
-| 2021 | Cadet | Completed foundational training; developed discipline, accountability, and teamwork. |
-| 2022 | Squad Leader | Mentored 10+ cadets; led weekly drills; improved cohesion with structured feedback. |
-| 2023-24 | Company Community Service Project Manager | Planned and Executed cleanup operations of 50 cadets. |
 
-> Replace titles/years with your exact roles. We can turn each role into its own subpage later if you want.
+### Cadet (2021)
+- Completed foundational military and leadership training.
+- Built strong habits in discipline, accountability, and teamwork.
+
+### Physical Fitness Officer (2022)
+- Developed weekly training plans for 20 students.
+- Led 20 students through each of the training plans.
+
+### Squad Leader (2023)
+- Led and mentored 10+ cadets.
+- Conducted weekly drills and training sessions.
+- Fostered cohesion through structured feedback and mentorship.
+
+### Company Community Service Project Manager (2024)
+- Planned and Executed cleanup operations of 50 cadets.
 
 ---
 
@@ -52,7 +61,6 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
   </a>
 </div>
 
-*(Place images at: `assets/corps/formation.jpg`, `assets/corps/awards.jpg`, `assets/corps/ceremony.jpg`.)*
 
 ---
 
