@@ -10,16 +10,21 @@ header:
 
 June 2024 – August 2024
 
-<h2>Core Competencies</h2>
-<div class="tech-stack">
-  <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python logo">
-  <img src="{{ '/assets/logos/sql.png' | relative_url }}" alt="SQL logo">
-  <img src="{{ '/assets/logos/scikitlearn.svg' | relative_url }}" alt="Scikit-learn">
-  <img src="{{ '/assets/logos/snowflake.svg' | relative_url }}" alt="Snowflake logo">
-</div>
+<section class="tech-stack">
+  <h2>Tech Stack</h2>
+  <div class="tech-logos">
+    <img src="{{ '/assets/logos/python.svg' | relative_url }}"          alt="Python" title="Python">
+    <img src="{{ '/assets/logos/jupyter.svg' | relative_url }}" alt="Jupyter Notebook" title="Jupyter Notebook">
+    <img src="{{ '/assets/logos/pandas.svg' | relative_url }}" alt="Pandas" title="Pandas">
+    <img src="{{ '/assets/logos/numpy.svg' | relative_url }}" alt="Pandas" title="NumPy">
+    <img src="{{ '/assets/logos/matplotlib.svg' | relative_url }}" alt="Pandas" title="Matplotlib">
+    <img src="{{ '/assets/logos/scikitlearn.svg' | relative_url }}" alt="Scikit-learn" title="Scikit-learn">
+    <img src="{{ '/assets/logos/gensim.png' | relative_url }}" alt="Pandas" title="Gensim">
+    <img src="{{ '/assets/logos/github.svg' | relative_url }}" alt="GitHub" title="GitHub">
+  </div>
+</section>
 
 ---
-
 ## Overview
 At HII Mission Technologies (June–August 2024), I built predictive analytics and NLP solutions to support fleet sustainment. My work centered on (1) forecasting **maintenance duration** to reduce downtime and (2) surfacing **actionable insights** from unstructured maintenance notes via a Doc2Vec-based recommender. I packaged outputs into an interactive dashboard with a **3D digital twin** concept to visualize sustainment health and asset readiness.
 

@@ -24,7 +24,6 @@ May 2025 – August 2025
 </section>
 
 ---
-
 ## Overview
 Worked on an enterprise-scale machine learning initiative to reduce order cancellations in the Buy Online, Pickup In Store (BOPIS) fulfillment channel, directly impacting customer satisfaction and operational efficiency.
 

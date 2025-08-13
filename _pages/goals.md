@@ -8,15 +8,18 @@ header:
   caption: "A neural network framework"
 ---
 
-![Core Competencies](#)
-<div class="tech-stack" style="text-align:center; margin-bottom:2rem;">
+<section class="tech-stack">
+  <h2>Core Competencies</h2>
+  <div class="tech-logos">
     <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python" title="Python">
     <img src="{{ '/assets/logos/sql.png' | relative_url }}" alt="SQL" title="SQL">
     <img src="{{ '/assets/logos/jupyter.svg' | relative_url }}" alt="Jupyter Notebook" title="Jupyter Notebook">
-    <img src="{{ '/assets/logos/snowflake.svg' | relative_url }}" alt="Snowflake" title="Snowflake">
+    <img src="{{ '/assets/logos/scikitlearn.svg' | relative_url }}" alt="Scikit-learn" title="Scikit-learn">
     <img src="{{ '/assets/logos/github.svg' | relative_url }}" alt="GitHub" title="GitHub">
-</div>
+  </div>
+</section>
 
+---
 ## Career Vision
 I am committed to building a career as a **Data Scientist**, with a long-term ambition to expand into **Machine Learning Operations (MLOps)** roles. My specialization lies at the intersection of **data science, natural language processing (NLP), machine learning, and deep learning** — using these tools to solve high-impact, real-world problems.
 
@@ -40,3 +43,4 @@ In the coming years, I plan to:
 - Lead projects that integrate **predictive analytics** with operational decision-making.
 - Build **end-to-end ML systems** from data ingestion to production deployment.
 - Explore advanced NLP and deep learning applications in both structured and unstructured domains.
+---
