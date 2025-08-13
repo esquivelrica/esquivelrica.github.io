@@ -44,15 +44,15 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
 
 ## Photo Highlights
 <div class="post-previews" style="grid-template-columns: repeat(3, 1fr);">
-  <a class="post-preview" href="{{ '/assets/milball.jpg' | relative_url }}">
-    <img src="{{ '/assets/milball.jpg' | relative_url }}" alt="Military Balls">
+  <a class="post-preview" href="{{ '/assets/images/milball.jpg' | relative_url }}">
+    <img src="{{ '/assets/milball.jpg' | relative_url }}" alt="Military Ball">
     <h3>Tradition</h3>
   </a>
-  <a class="post-preview" href="{{ '/assets/bravostreambank.jpg' | relative_url }}">
-    <img src="{{ '/assets/bravostreambank.jpg' | relative_url }}" alt="Bravo Companpy after Streambank cleanup">
+  <a class="post-preview" href="{{ '/assets/images/bravostreambank.jpg' | relative_url }}">
+    <img src="{{ '/assets/bravostreambank.jpg' | relative_url }}" alt="Bravo Company after Streambank cleanup">
     <h3>Service</h3>
   </a>
-  <a class="post-preview" href="{{ '/assets/uniform.jpg' | relative_url }}">
+  <a class="post-preview" href="{{ '/assets/images/uniform.jpg' | relative_url }}">
     <img src="{{ '/assets/uniform.jpg' | relative_url }}" alt="Military Conduct">
     <h3>Leadership and Discipline</h3>
     <p class="meta">Leadership and Discipline</p>
