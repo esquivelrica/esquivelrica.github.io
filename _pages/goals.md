@@ -4,9 +4,18 @@ permalink: /goals/
 layout: single
 header:
   overlay_image: /assets/images/neuralnetwork.jpg
-  overlay_filter: 0.25
-  caption: "Goals & Specialization"
+  overlay_filter: 0.40
+  caption: "A neural network framework"
 ---
+
+![Core Competencies](#)
+<div class="tech-stack" style="text-align:center; margin-bottom:2rem;">
+    <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python" title="Python">
+    <img src="{{ '/assets/logos/sql.png' | relative_url }}" alt="SQL" title="SQL">
+    <img src="{{ '/assets/logos/jupyter.svg' | relative_url }}" alt="Jupyter Notebook" title="Jupyter Notebook">
+    <img src="{{ '/assets/logos/snowflake.svg' | relative_url }}" alt="Snowflake" title="Snowflake">
+    <img src="{{ '/assets/logos/github.svg' | relative_url }}" alt="GitHub" title="GitHub">
+</div>
 
 ## Career Vision
 I am committed to building a career as a **Data Scientist**, with a long-term ambition to expand into **Machine Learning Operations (MLOps)** roles. My specialization lies at the intersection of **data science, natural language processing (NLP), machine learning, and deep learning** — using these tools to solve high-impact, real-world problems.

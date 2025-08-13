@@ -75,6 +75,33 @@
   transform: scale(1.1);
 }
 
+/* Core Competencies Tech Stack */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem; /* space between logos */
+  margin-bottom: 2rem;
+}
+
+.tech-stack img {
+  height: 50px;
+  width: auto;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tech-stack img:hover {
+  transform: scale(1.1); /* slightly enlarges on hover */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Adjust sizing for small screens */
+@media (max-width: 600px) {
+  .tech-stack img {
+    height: 40px;
+  }
+}
+
 .intro-text {
   line-height: 1.8; /* Improves readability */
   font-size: 1.05rem;

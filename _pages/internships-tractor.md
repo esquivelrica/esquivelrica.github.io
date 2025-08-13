@@ -14,6 +14,7 @@ May 2025 – August 2025
   <h2>Tech Stack</h2>
   <div class="tech-logos">
     <img src="{{ '/assets/logos/python.svg' | relative_url }}" alt="Python" title="Python">
+    <img src="{{ '/assets/logos/sql.png' | relative_url }}" alt="SQL" title="SQL">
     <img src="{{ '/assets/logos/snowflake.svg' | relative_url }}" alt="Snowflake" title="Snowflake">
     <img src="{{ '/assets/logos/jupyter.svg' | relative_url }}" alt="Jupyter Notebook" title="Jupyter Notebook">
     <img src="{{ '/assets/logos/pandas.svg' | relative_url }}" alt="Pandas" title="Pandas">
@@ -28,7 +29,6 @@ May 2025 – August 2025
 Worked on an enterprise-scale machine learning initiative to reduce order cancellations in the Buy Online, Pickup In Store (BOPIS) fulfillment channel, directly impacting customer satisfaction and operational efficiency.
 
 ## Key Contributions
-
 - Designed and implemented an end-to-end ML pipeline in Snowflake using Snowpark (Python + SQL) and Snowflake ML API.
 - Developed predictive models at the store-SKU level to identify orders at high risk of cancellation before fulfillment.
 - Engineered custom feature sets by integrating order history, inventory movement, store performance, and product attributes.
@@ -42,5 +42,4 @@ Worked on an enterprise-scale machine learning initiative to reduce order cancel
 - Reduced last-minute order cancellations and improved BOPIS order fulfillment reliability.
 - Delivered model insights that were adopted in weekly operational planning across stores.
 - $1.5M-$3M in annual revenue lost recapture.
-
 ---
