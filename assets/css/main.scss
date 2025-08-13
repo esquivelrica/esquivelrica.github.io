@@ -41,6 +41,33 @@
   font-weight: bold;
 }
 
+.tech-stack {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.tech-stack h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.tech-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.tech-logos img {
+  height: 40px;
+  width: auto;
+  transition: transform 0.2s ease;
+}
+
+.tech-logos img:hover {
+  transform: scale(1.1);
+}
+
 .intro-text {
   line-height: 1.8; /* Improves readability */
   font-size: 1.05rem;
