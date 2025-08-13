@@ -2,6 +2,10 @@
 title: "Goals & Specialization"
 permalink: /goals/
 layout: single
+header:
+  overlay_image: /assets/images/neuralnetwork.jpg
+  overlay_filter: 0.25
+  caption: "Goals & Specialization"
 ---
 
 ## Career Vision
