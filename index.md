@@ -9,7 +9,15 @@ author_profile: true
   
   <div class="intro-text">
     <h1>Rica Esquivel</h1>
-    <p>Hello, I'm Rica – a Computer Science undergraduate at Virginia Tech, graduating in December 2025. I've interned in data science and machine learning roles at Tractor Supply Company and HII Mission Technologies, applying my skills in Python, SQL, Java, R, and C. I'm experienced in machine learning, natural language processing (NLP), and working with cloud/data platforms like Snowflake and AWS.</p>
+    <p class="intro-text">
+      <strong>Hi there!</strong> I’m Rica, currently completing my B.S. in Computer Science at Virginia Tech, graduating in December 2025.  
+      <br><br>
+      I’m a self-driven, motivated, and enthusiastic team player with a passion for data science — aiming for roles like <strong>Data Scientist</strong> and <strong>Machine Learning Engineer</strong> as I start my career post-grad.  
+      <br><br>
+      Alongside technical skills in Python, SQL, Java, R, and C, I’ve gained experience that has strengthened my <strong>business acumen</strong> and <strong>leadership abilities</strong>.  
+      <br><br>
+      Feel free to explore my portfolio to learn more about my work, experiences, and the person behind the code.
+    </p>
     <div class="button-group">
       <a href="https://www.linkedin.com/in/rica-esquivel/" target="_blank" class="btn">LinkedIn</a>
       <a href="{{ '/assets/Rica_Esquivel_Resume.pdf' | relative_url }}" target="_blank" class="btn">View Resume</a>
@@ -23,9 +31,9 @@ author_profile: true
 
 ## Explore My Portfolio
 <div class="cards">
-  <a class="card" href="{{ '/cadets/' | relative_url }}">
-    <i class="fas fa-shield-halved"></i>
-    Corps of Cadets
+  <a class="card" href="{{ '/goals/' | relative_url }}">
+    <i class="fas fa-bullseye"></i>
+    Goals & Specialization
   </a>
   <a class="card" href="{{ '/internships-tractor/' | relative_url }}">
     <i class="fas fa-store"></i>
@@ -39,9 +47,9 @@ author_profile: true
     <i class="fas fa-code"></i>
     Technical Projects
   </a>
-  <a class="card" href="{{ '/goals/' | relative_url }}">
-    <i class="fas fa-bullseye"></i>
-    Goals & Specialization
+    <a class="card" href="{{ '/cadets/' | relative_url }}">
+    <i class="fas fa-shield-halved"></i>
+    Corps of Cadets
   </a>
   <!-- <a class="card" href="{{ '/blog/' | relative_url }}">
     <i class="fas fa-pen-nib"></i>

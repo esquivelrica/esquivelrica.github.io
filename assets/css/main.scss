@@ -34,6 +34,19 @@
   margin: 0 0 1.5rem;       // space below paragraph
   line-height: 1.6;         // improves text readability 
 }
+
+.intro-text {
+  line-height: 1.8; /* Improves readability */
+  font-size: 1.05rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-text strong {
+  color: #2c3e50; /* Darker emphasis color for bold words */
+}
+
 // Styles container holding linkedin/resume buttons
 .button-group {
   display: flex;            
