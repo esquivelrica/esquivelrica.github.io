@@ -10,6 +10,9 @@ main:
     url: "https://github.com/esquivelrica"
     external: true
 
+  - title: "About Me"
+    url: "/about-me/"
+
   - title: "Goodreads"
     url: "https://www.goodreads.com/user/show/188499200-rica-esquivel"
     external: true

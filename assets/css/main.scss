@@ -128,29 +128,6 @@
   color: #2c3e50; /* Darker emphasis color for bold words */
 }
 
-// Styles container holding linkedin/resume buttons
-.button-group {
-  display: flex;            
-  gap: 1rem;                // space between buttons
-  flex-wrap: wrap;          // buttons wrap on smaller screens
-  justify-content: center;  // horizontally center buttons
-}
-// Styles each button
-.btn {
-  display: inline-block;    // padding/margins
-  text-decoration: none;    // remove underline from links
-  padding: 0.6em 1.2em;     // space inside button
-  border-radius: 0.3em;     // rounded corners
-  background-color: #0077b5;    // linkedin-style blue
-  color: #fff;            // white text
-  font-weight: bold;        // bold text
-}
-// Button hover effect
-.btn:hover {
-  background-color: #005582; // darker blue on hover
-}
-
-
 // Styles for larger screens (768px and up)
 @media (min-width: 768px) {
   .intro {

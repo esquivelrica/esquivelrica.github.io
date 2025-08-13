@@ -18,12 +18,6 @@ author_profile: true
       <br><br>
       Feel free to explore my portfolio to learn more about my work, experiences, and the person behind the code.
     </p>
-    <div class="button-group">
-      <a href="https://www.linkedin.com/in/rica-esquivel/" target="_blank" class="btn">LinkedIn</a>
-      <a href="{{ '/assets/Rica_Esquivel_Resume.pdf' | relative_url }}" target="_blank" class="btn">View Resume</a>
-      <a href="https://github.com/esquivelrica" target="_blank" class="btn">GitHub</a>
-      <a href="https://www.goodreads.com/user/show/188499200-rica-esquivel" target="_blank" class="btn">Goodreads</a>
-    </div>
   </div>
 </section>
 
