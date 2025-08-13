@@ -40,10 +40,5 @@ At HII Mission Technologies (June–August 2024), I built predictive analytics a
 - Helped **reduce downtime** by prioritizing long-lead jobs and improving schedule visibility.
 - Enabled **faster troubleshooting** by recommending relevant historical work orders from free-text notes.
 - Provided a **shared view** (dashboard + 3D twin) for maintainers and leaders to assess readiness at a glance.
-
 ---
 
-## Problem → Solution → Impact
-- Problem: [Describe challenge]
-- Solution: [Tech stack, approach]
-- Impact: [Metrics, outcome]
