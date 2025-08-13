@@ -33,16 +33,10 @@ Worked on an enterprise-scale machine learning initiative to reduce order cancel
 - Applied techniques such as Random Forests and Gradient Boosting, optimizing for recall to minimize false negatives.
 - Partnered with business teams to ensure model outputs were actionable and integrated into decision-making workflows.
 - Automated data ingestion and transformation pipelines to handle millions of records daily.
-- Designed visual analytics in Tableau to monitor prediction performance and highlight operational patterns.
+- Designed visual analytics in PowerBI to monitor prediction performance and highlight operational patterns.
 
 ## Impact
 
 - Reduced last-minute order cancellations and improved BOPIS order fulfillment reliability.
 - Delivered model insights that were adopted in weekly operational planning across stores.
 - $1.5M-$3M in annual revenue lost recapture.
-
-## Problem → Solution → Impact
-- Problem: [Describe challenge]
-- Solution: [Tech stack, approach]
-- Impact: [Metrics, outcome]
-
