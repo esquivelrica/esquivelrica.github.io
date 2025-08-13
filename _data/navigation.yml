@@ -1,0 +1,15 @@
+main:
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/rica-esquivel/"
+    external: true
+
+  - title: "Resume"
+    url: "/assets/Rica_Esquivel_Resume.pdf"
+
+  - title: "GitHub"
+    url: "https://github.com/esquivelrica"
+    external: true
+
+  - title: "Goodreads"
+    url: "https://www.goodreads.com/user/show/188499200-rica-esquivel"
+    external: true
