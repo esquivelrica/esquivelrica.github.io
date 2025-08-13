@@ -2,16 +2,62 @@
 title: "Corps of Cadets"
 permalink: /cadets/
 layout: single
+header:
+  overlay_image: /assets/images/vtbarracks.jpg 
+  overlay_filter: 0.25
+  caption: "Virginia Tech Corps of Cadets Dorms"
 ---
 
-## Corps of Cadets Experience
+<!-- ===== Skills / Core Competencies (icons optional) ===== -->
+<div class="tech-stack" style="justify-content:center; margin: 1rem 0 2rem;">
+  <!-- Optional Font Awesome icons; requires head include -->
+  <h2>Competencies</h2>
+  <span title="Leadership" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-user-tie"></i> Leadership</span>
+  <span title="Team Management" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-users"></i> Team Management</span>
+  <span title="Strategic Planning" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-chess-knight"></i> Strategic Planning</span>
+  <span title="Communication" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-microphone"></i> Communication</span>
+  <span title="Operations & Logistics" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-compass-drafting"></i> Operations</span>
+</div>
 
-Here, I share my journey in the Corps of Cadets, highlighting my roles, achievements, and leadership skills.
+## Overview
+The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decisions under pressure. Across multiple roles, I learned to motivate teams, manage operations, and uphold standards—experiences I carry into my professional work.
 
-### Timeline of Roles
-- **Year 1:** [Position] – Brief description
-- **Year 2:** [Position] – Brief description
-- **Year 3:** [Position] – Brief description
+---
 
-### Photo Highlights
-<!-- ![Event Name](/assets/cadets-event.jpg) -->
+## Timeline of Roles & Highlights
+| Year | Role / Position | Highlights |
+|---|---|---|
+| 2021 | Cadet | Completed foundational training; developed discipline, accountability, and teamwork. |
+| 2022 | Squad Leader | Mentored 10+ cadets; led weekly drills; improved cohesion with structured feedback. |
+| 2023 | Company First Sergeant | Managed admin & readiness; coordinated events; streamlined comms across leaders. |
+| 2024 | Battalion Staff / Commander *(example)* | Oversaw ~200 cadets; planned operations and ceremonies; represented the Corps publicly. |
+
+> Replace titles/years with your exact roles. We can turn each role into its own subpage later if you want.
+
+---
+
+## Photo Highlights
+<div class="post-previews" style="grid-template-columns: repeat(3, 1fr);">
+  <a class="post-preview" href="{{ '/assets/corps/formation.jpg' | relative_url }}">
+    <img src="{{ '/assets/corps/formation.jpg' | relative_url }}" alt="Formation">
+    <h3>Formation</h3>
+    <p class="meta">Discipline and precision</p>
+  </a>
+  <a class="post-preview" href="{{ '/assets/corps/awards.jpg' | relative_url }}">
+    <img src="{{ '/assets/corps/awards.jpg' | relative_url }}" alt="Awards">
+    <h3>Awards</h3>
+    <p class="meta">Recognition for performance</p>
+  </a>
+  <a class="post-preview" href="{{ '/assets/corps/ceremony.jpg' | relative_url }}">
+    <img src="{{ '/assets/corps/ceremony.jpg' | relative_url }}" alt="Ceremony">
+    <h3>Ceremony</h3>
+    <p class="meta">Tradition and leadership</p>
+  </a>
+</div>
+
+*(Place images at: `assets/corps/formation.jpg`, `assets/corps/awards.jpg`, `assets/corps/ceremony.jpg`.)*
+
+---
+
+## Key Takeaways
+The Corps taught me to lead by example, communicate clearly, and stay calm under pressure. I value integrity, accountability, and teamwork—and I bring that mindset to every project and team I’m part of.

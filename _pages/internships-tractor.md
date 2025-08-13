@@ -41,4 +41,5 @@ Worked on an enterprise-scale machine learning initiative to reduce order cancel
 - Reduced last-minute order cancellations and improved BOPIS order fulfillment reliability.
 - Delivered model insights that were adopted in weekly operational planning across stores.
 - $1.5M-$3M in annual revenue lost recapture.
+
 ---
