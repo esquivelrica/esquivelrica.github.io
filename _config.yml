@@ -4,6 +4,15 @@ description: >-
   Showcasing technical projects, internships, leadership experience, and personal interests.
 remote_theme: "mmistakes/minimal-mistakes"
 
+navigation:
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/rica-esquivel/"
+  - title: "Resume"
+    url: "/assets/Rica_Esquivel_Resume.pdf"
+  - title: "GitHub"
+    url: "https://github.com/esquivelrica"
+  - title: "Goodreads"
+    url: "https://www.goodreads.com/user/show/188499200-rica-esquivel"
 
 include:
   - _pages

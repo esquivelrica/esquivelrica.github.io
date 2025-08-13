@@ -35,6 +35,21 @@
   line-height: 1.6;         // improves text readability 
 }
 
+.header-links {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.header-links a {
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.header-links i {
+  margin-right: 4px;
+}
+
 // header image overlay
 .page__hero--overlay .page__title {
   font-size: 2rem;
