@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 permalink: /about-me/
-layout: single
+layout: single  
 # header:
 #   overlay_image: /assets/images/tractorlobby.jpg
 #   overlay_filter: 0.3  

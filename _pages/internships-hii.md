@@ -26,7 +26,7 @@ June 2024 – August 2024
 
 ---
 ## Overview
-At HII Mission Technologies (June–August 2024), I built predictive analytics and NLP solutions to support fleet sustainment. My work centered on (1) forecasting **maintenance duration** to reduce downtime and (2) surfacing **actionable insights** from unstructured maintenance notes via a Doc2Vec-based recommender. I packaged outputs into an interactive dashboard with a **3D digital twin** concept to visualize sustainment health and asset readiness.
+At HII Mission Technologies (June-August 2024), I built predictive analytics and NLP solutions to support fleet sustainment. My work centered on (1) forecasting **maintenance duration** to reduce downtime and (2) surfacing **actionable insights** from unstructured maintenance notes via a Doc2Vec-based recommender. I packaged outputs into an interactive dashboard with a **3D digital twin** concept to visualize sustainment health and asset readiness.
 
 ## Key Contributions
 - **Maintenance Duration Modeling:** Trained a **Random Forest** model on historical work orders, parts usage, timestamps, and asset metadata; tuned for MAE and practical interpretability.

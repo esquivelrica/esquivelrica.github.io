@@ -18,7 +18,7 @@ header:
 </div>
 
 ## Overview
-The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decisions under pressure. Across multiple roles, I learned to motivate teams, manage operations, and uphold standards—experiences I carry into my professional work.
+The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decisions under pressure. Across multiple roles, I learned to motivate teams, manage operations, and uphold standards. These are experiences I carry into my professional work.
 
 ---
 

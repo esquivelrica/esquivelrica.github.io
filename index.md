@@ -12,7 +12,7 @@ author_profile: true
     <p class="intro-text">
       <strong>Hi there!</strong> I’m Rica, currently completing my B.S. in Computer Science at Virginia Tech, graduating in December 2025.  
       <br><br>
-      I’m a self-driven, motivated, and enthusiastic team player with a passion for data science — aiming for roles like <strong>Data Scientist</strong> and <strong>Machine Learning Engineer</strong> as I start my career post-grad.  
+      I’m a self-driven, motivated, and enthusiastic team player with a passion for data science and is currently aiming for roles like <strong>Data Scientist</strong> and <strong>Machine Learning Engineer</strong> as I start my career post-grad.  
       <br><br>
       Alongside technical skills in Python, SQL, Java, R, and C, I’ve gained experience that has strengthened my <strong>business acumen</strong> and <strong>leadership abilities</strong>.  
       <br><br>
