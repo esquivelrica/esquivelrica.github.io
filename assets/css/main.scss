@@ -244,19 +244,16 @@
 
 /* Areas of Specialization: three-up cards */
 .specializations {
-  display: grid !important;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
   margin-top: 1rem;
 }
 
 .spec {
+  flex: 1 1 calc(33.333% - 1.5rem);
   text-align: center;
-  background: #f7f7f7;
-  border-radius: 12px;
-  padding: 1.25rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,.04);
-  transition: transform .15s ease, box-shadow .2s ease;
 }
 
 .spec:hover {
@@ -265,14 +262,11 @@
 }
 
 .spec img {
-  max-height: 60px; /* same height for all */
-  max-width: 60px;  /* prevents wide logos from stretching */
-  width: auto;
-  height: auto;
-  margin-bottom: 0.5rem;
-  display: inline-block;
-  object-fit: contain; /* keeps aspect ratio */
-  background-color: transparent;
+  max-height: 60px;
+  max-width: 60px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 0.5rem auto;
 }
 
 .spec h3 {
@@ -292,6 +286,12 @@
 }
 @media (max-width: 640px) {
   .specializations { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 900px) {
+  .spec {
+    flex: 1 1 100%;
+  }
 }
 
 /* === Beyond the Office (Homepage section) === */
