@@ -27,7 +27,7 @@ I am committed to building a career as a **Data Scientist**, with a long-term am
 
 <div class="specializations">
   <div class="spec">
-    <img src="{{ '/assets/logos/machinelearning.jpg' | relative_url }}" alt="Data Science & Machine Learning logo">
+    <img src="{{ '/assets/logos/machinelearning.png' | relative_url }}" alt="Data Science & Machine Learning logo">
     <h3>Data Science & ML</h3>
     <p>Designing predictive models, optimizing performance, and ensuring interpretability for real-world deployment.</p>
   </div>  
