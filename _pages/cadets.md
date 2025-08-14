@@ -8,7 +8,7 @@ header:
   caption: "Virginia Tech Corps of Cadets Dorms"
 ---
 
-<h2>Competencies</h2>
+<h2 style="justify-content:center; margin: 1rem 0 2rem;">Competencies</h2>
 <div class="tech-stack" style="justify-content:center; margin: 1rem 0 2rem;">
   <span title="Leadership" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-user-tie"></i> Leadership</span>
   <span title="Team Management" style="margin:0 .75rem; font-weight:600;"><i class="fas fa-users"></i> Team Management</span>
@@ -55,7 +55,6 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
   <a class="post-preview" href="{{ '/assets/images/uniform.jpg' | relative_url }}">
     <img src="{{ '/assets/images/uniform.jpg' | relative_url }}" alt="Military Conduct">
     <h3>Leadership and Discipline</h3>
-    <p class="meta">Leadership and Discipline</p>
   </a>
 </div>
 
@@ -63,4 +62,4 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
 ---
 
 ## Key Takeaways
-The Corps taught me to lead by example, communicate clearly, and stay calm under pressure. I value integrity, accountability, and teamwork—and I bring that mindset to every project and team I’m part of.
+The Corps taught me to lead by example, communicate clearly, and stay calm under pressure. I value integrity, accountability, and teamwork. I bring that mindset to every project and team I’m part of.
