@@ -244,7 +244,7 @@
 
 /* Areas of Specialization: three-up cards */
 .specializations {
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
   margin-top: 1rem;
@@ -265,10 +265,14 @@
 }
 
 .spec img {
-  height: 56px;           /* adjust if you want larger logos */
+  max-height: 60px; /* same height for all */
+  max-width: 60px;  /* prevents wide logos from stretching */
   width: auto;
+  height: auto;
   margin-bottom: 0.5rem;
   display: inline-block;
+  object-fit: contain; /* keeps aspect ratio */
+  background-color: transparent;
 }
 
 .spec h3 {
