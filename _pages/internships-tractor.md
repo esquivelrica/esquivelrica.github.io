@@ -44,6 +44,6 @@ Worked on an enterprise-scale machine learning initiative to reduce order cancel
 
 ## Related Blog Post
 Want to dive deeper into this project?  
-[Read my blog post: *Preventing Store Cancellations Before They Even Happen Using Predictive Analytics*]({{ '/blog/preventing-store-cancellations-before-they-even-happen-using-predictive-analytics/' | relative_url }})
+[Read my blog post: *Preventing Store Cancellations Before They Even Happen Using Predictive Analytics*]({{ '/tractor-capstone-post/' | relative_url }})
 
 ---

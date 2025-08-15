@@ -1,5 +1,6 @@
 ---
 title: "Preventing Store Cancellations Before They Even Happen Using Predictive Analytics"
+permalink: /tractor-capstone-post/
 date: 2025-08-15
 categories: blog
 layout: single
