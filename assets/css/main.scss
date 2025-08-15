@@ -4,10 +4,10 @@
 @import "minimal-mistakes"; // main theme styles
 
 /* ============================
-   Custom Intro Section Styles
+   Homepage
    ============================ */
 
-// Styles intro container
+// Intro container
 .intro {
   display: flex !important;            // flexbox layout
   flex-direction: column !important;   // stacks content vertically
@@ -15,7 +15,7 @@
   text-align: center !important;       // centers text
   padding: 2rem 1rem !important;       // space inside the container
 }
-// Styles profile image in intro
+// Profile image in intro
 .profile-pic {
   width: 150px;             // image width
   height: 150px;            // image height
@@ -23,18 +23,21 @@
   border-radius: 50%;       // make image ciruclar
   margin-bottom: 1rem;      // add space below image
 }
-// Styles main heading (Name) inside the intro text
+// Main heading (Name) inside the intro text
 .intro-text h1 {
   font-size: 2rem;          // enlarge
   margin: 0.5rem 0;         // small spacing above and below
 }
-// Styles paragraph text inside intro
+// Paragraph text inside intro
 .intro-text p {
   max-width: 600px;         // limits width for readability
   margin: 0 0 1.5rem;       // space below paragraph
   line-height: 1.6;         // improves text readability 
 }
 
+/* =========================================
+   Header Links (i.e. LinkedIn, Resume, etc)
+   ========================================= */
 .header-links {
   display: inline-block;
   margin-left: 2rem;
@@ -50,12 +53,16 @@
   margin-right: 4px;
 }
 
-// header image overlay
+/* =================================================
+   Page headers (e.g. internships, cadet experience)
+   ================================================= */
+// page title
 .page__hero--overlay .page__title {
   font-size: 2rem;
   font-weight: bold;
 }
 
+// page image
 .page__hero-image img,
 .page__hero img {
   width: 100%;
@@ -63,35 +70,12 @@
   height: auto;
 }
 
+/* ===========
+   Tech Stack
+   ===========*/
 .tech-stack {
   margin-top: 2rem;
   text-align: center;
-}
-
-.tech-stack h2 {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-.tech-logos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-}
-
-.tech-logos img {
-  height: 40px;
-  width: auto;
-  transition: transform 0.2s ease;
-}
-
-.tech-logos img:hover {
-  transform: scale(1.1);
-}
-
-/* Core Competencies Tech Stack (same as internship format) */
-.tech-stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -99,15 +83,25 @@
   margin-bottom: 2rem;
 }
 
-.tech-stack img {
-  height: 50px;
-  width: auto;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+// Tech stack title
+.tech-stack h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
-.tech-stack img:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+// tech stack logo spacing
+.tech-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+// tech stack logo dimensions
+.tech-logos img {
+  height: 40px;
+  width: auto;
+  transition: transform 0.2s ease;
 }
 
 @media (max-width: 600px) {
