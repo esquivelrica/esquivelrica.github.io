@@ -294,6 +294,20 @@
   }
 }
 
+// Blog post container adjustments
+body.category-blog .page__content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* Adjust for smaller devices */
+@media (max-width: 900px) {
+  body.category-blog .page__content {
+    max-width: 95%;   /* Use most of the screen on smaller viewports */
+  }
+}
+
 /* === Beyond the Office (Homepage section) === */
 .beyond-office {
   display: grid;
