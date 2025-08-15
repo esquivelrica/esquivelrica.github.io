@@ -31,7 +31,7 @@ author_profile: true
   </a>
   <a class="card" href="{{ '/internships-tractor/' | relative_url }}">
     <i class="fas fa-store"></i>
-    Internship: Tractor Supply
+    Internship: Tractor Supply Co.
   </a>
   <a class="card" href="{{ '/internships-hii/' | relative_url }}">
     <i class="fas fa-ship"></i>

@@ -42,4 +42,8 @@ Worked on an enterprise-scale machine learning initiative to reduce order cancel
 - Delivered model insights that were adopted in weekly operational planning across stores.
 - $1.5M-$3M in annual revenue lost recapture.
 
+## Related Blog Post
+Want to dive deeper into this project?  
+[Read my blog post: *Preventing Store Cancellations Before They Even Happen Using Predictive Analytics*]({{ '/_posts/2025-08-15-tractor-capstone/' | relative_url }})
+
 ---
