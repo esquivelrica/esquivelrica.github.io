@@ -6,8 +6,8 @@ categories: blog
 layout: single
 tags: [data science, portfolio, supply chain, retail]
 excerpt: "My Machine Learning Capstone at Tractor Supply Co."
-# header:
-#   teaser: /assets/images/my-first-post-thumbnail.jpg
+header:
+  teaser: /assets/images/smartretail.jpg
 ---
 
 ### Background
