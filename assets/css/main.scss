@@ -9,11 +9,11 @@
 
 // Intro container
 .intro {
-  display: flex !important;            // flexbox layout
-  flex-direction: column !important;   // stacks content vertically
-  align-items: center !important;      // centers items horizontally
-  text-align: center !important;       // centers text
-  padding: 2rem 1rem !important;       // space inside the container
+  display: flex;            // flexbox layout
+  flex-direction: column;   // stacks content vertically
+  align-items: center;      // centers items horizontally
+  text-align: center;       // centers text
+  padding: 2rem 1rem;       // space inside the container
 }
 // Profile image in intro
 .profile-pic {
@@ -23,6 +23,35 @@
   border-radius: 50%;       // make image ciruclar
   margin-bottom: 1rem;      // add space below image
 }
+
+// Styles for larger screens (768px and up)
+@media (min-width: 768px) {
+  .intro {
+    flex-direction: row;        // switch to side-by-side layout
+    justify-content: center;    // center horizontally
+    align-items: center;        // align vertically
+    text-align: left;           // left-align text for better reading flow
+  }
+  .profile-pic {
+    width: 180px;               // slightly larger profile image
+    height: 180px;             
+    margin-bottom: 0;           // remove bottom margin in row layout
+    margin-right: 2rem;         // add space between image and text  
+  }
+}
+
+.intro-text {
+  line-height: 1.8; /* Improves readability */
+  font-size: 1.05rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro-text strong {
+  color: #2c3e50; /* Darker emphasis color for bold words */
+}
+
 // Main heading (Name) inside the intro text
 .intro-text h1 {
   font-size: 2rem;          // enlarge
@@ -70,9 +99,9 @@
   height: auto;
 }
 
-/* ===========
+/* =============================
    Tech Stack
-   ===========*/
+   =============================*/
 .tech-stack {
   margin-top: 2rem;
   text-align: center;
@@ -83,7 +112,7 @@
   margin-bottom: 2rem;
 }
 
-// Tech stack title
+// tech stack title ("Tech Stack")
 .tech-stack h2 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
@@ -110,39 +139,11 @@
   }
 }
 
-.intro-text {
-  line-height: 1.8; /* Improves readability */
-  font-size: 1.05rem;
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.intro-text strong {
-  color: #2c3e50; /* Darker emphasis color for bold words */
-}
-
-// Styles for larger screens (768px and up)
-@media (min-width: 768px) {
-  .intro {
-    flex-direction: row;        // switch to side-by-side layout
-    justify-content: center;    // center horizontally
-    align-items: center;        // align vertically
-    text-align: left;           // left-align text for better reading flow
-  }
-  .profile-pic {
-    width: 180px;               // slightly larger profile image
-    height: 180px;             
-    margin-bottom: 0;           // remove bottom margin in row layout
-    margin-right: 2rem;         // add space between image and text  
-  }
-}
-
 /* ============================
    Portfolio Cards Section
    ============================ */
 
-// Styles card container for portfolio sections
+// Card container for portfolio sections
 .cards {
   display: flex;                // side-by-side layout
   flex-direction: column;       // wrap to next line if needed  
@@ -150,7 +151,7 @@
   margin-top: 1.5rem;           // space above card section
 }
 
-// Styles individual cards
+// Individual cards
 .card {
   flex: 1 1 calc(33% - 1rem);   // 3 cards per row with spacing
   background: #f5f5f5;        // light gray background
@@ -176,8 +177,83 @@
 }
 
 /* ============================
-   Recent Posts Grid on Homepage
+   Areas of Specialization under goals page
    ============================ */
+
+/* Areas of Specialization: three-up cards */
+.specializations {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+// individual specialization icon
+.spec {
+  flex: 1 1 calc(33.333% - 1.5rem);
+  text-align: center;
+}
+
+// individual specialization icon hover
+.spec:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+
+// individual specialization image dimensions
+.spec img {
+  max-height: 60px;
+  max-width: 60px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+// specialization title (e.g. "Data Science & ML")
+.spec h3 {
+  margin: 0.4rem 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+// specialization blurb
+.spec p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive: 2 columns on tablets, 1 column on phones */
+@media (max-width: 900px) {
+  .specializations { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  .specializations { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 900px) {
+  .spec {
+    flex: 1 1 100%;
+  }
+}
+
+/* Adjust for smaller devices */
+@media (max-width: 900px) {
+  body.category-blog .page__content {
+    max-width: 95%;   /* Use most of the screen on smaller viewports */
+  }
+}
+
+
+
+
+
+
+
+
+/* ===============================
+   Recent Posts Grid on Homepage
+   =============================== */
 
 // Grid layout for recent blog post previews
 .post-previews {
@@ -236,64 +312,14 @@
   .post-previews { grid-template-columns: 1fr; }
 }
 
-/* Areas of Specialization: three-up cards */
-.specializations {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
 
-.spec {
-  flex: 1 1 calc(33.333% - 1.5rem);
-  text-align: center;
-}
 
-.spec:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,.08);
-}
 
-.spec img {
-  max-height: 60px;
-  max-width: 60px;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto 0.5rem auto;
-}
 
-.spec h3 {
-  margin: 0.4rem 0 0.35rem;
-  font-size: 1.05rem;
-}
 
-.spec p {
-  margin: 0;
-  color: #555;
-  line-height: 1.6;
-}
+// =====================================================================
+// =====================================================================
 
-/* Responsive: 2 columns on tablets, 1 column on phones */
-@media (max-width: 900px) {
-  .specializations { grid-template-columns: 1fr 1fr; }
-}
-@media (max-width: 640px) {
-  .specializations { grid-template-columns: 1fr; }
-}
-
-@media (max-width: 900px) {
-  .spec {
-    flex: 1 1 100%;
-  }
-}
-
-/* Adjust for smaller devices */
-@media (max-width: 900px) {
-  body.category-blog .page__content {
-    max-width: 95%;   /* Use most of the screen on smaller viewports */
-  }
-}
 
 /* === Beyond the Office (Homepage section) === */
 .beyond-office {
@@ -373,3 +399,4 @@
 .beyond-office + p .btn {
   margin-top: .5rem;
 }
+
