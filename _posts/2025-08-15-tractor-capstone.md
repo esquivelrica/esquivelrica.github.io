@@ -2,6 +2,7 @@
 title: "Preventing Store Cancellations Before They Even Happen Using Predictive Analytics"
 date: 2025-08-15
 categories: blog
+layout: single
 tags: [data science, portfolio, supply chain, retail]
 excerpt: "My Machine Learning Capstone at Tractor Supply Co."
 # header:

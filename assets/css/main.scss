@@ -294,19 +294,6 @@
   }
 }
 
-.page__content {
-  max-width: 800px; /* or whatever width you prefer */
-  margin: 0 auto;   /* centers the content */
-  padding: 0 1rem;  /* adds some side padding */
-}
-
-/* Add paragraph spacing for blog posts */
-.page__content p {
-  margin-bottom: 1.2em;   /* space after each paragraph */
-  margin-top: 0.8em;      /* optional space before paragraph */
-  line-height: 1.6;       /* improves readability */
-}
-
 /* === Beyond the Office (Homepage section) === */
 .beyond-office {
   display: grid;
