@@ -103,12 +103,12 @@
    Tech Stack
    =============================*/
 .tech-stack {
-  margin-top: 2rem;
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -131,6 +131,11 @@
   height: 40px;
   width: auto;
   transition: transform 0.2s ease;
+}
+
+.tech-stack img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 4px 8px rgba(0,0,0,.15);
 }
 
 @media (max-width: 600px) {
@@ -176,9 +181,9 @@
   }
 }
 
-/* ============================
+/* =========================================
    Areas of Specialization under goals page
-   ============================ */
+   ========================================= */
 
 /* Areas of Specialization: three-up cards */
 .specializations {
