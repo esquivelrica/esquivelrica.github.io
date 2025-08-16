@@ -52,7 +52,7 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
     <img src="{{ '/assets/images/bravostreambank.jpg' | relative_url }}" alt="Bravo Company after Streambank cleanup">
     <h3>Service</h3>
   </a>
-  <a class="post-preview" href="{{ '/assets/images/uniform.jpg' | relative_url }}">
+  <a class="post-preview" href="{{ '/assets/images/uniform.JPG' | relative_url }}">
     <img src="{{ '/assets/images/uniform.jpg' | relative_url }}" alt="Military Conduct">
     <h3>Leadership and Discipline</h3>
   </a>
