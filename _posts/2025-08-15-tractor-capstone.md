@@ -13,6 +13,7 @@ header:
 
 ### Background
 Imagine a scenario when you are shopping online for horse feed to feed your horses. You go online to check if your nearest rural supplier has some in stock so that you can buy a couple of units to pick up later during the day after work. Luckily, the website states that there are some units in stock, so you place your order, and you move on about your day. A couple of hours later you are sent a message saying that your order cannot be fulfilled any longer. This raises a problem with hurting revenue but also creates a bad experience with digital customers through the BOPIS (“Buy Online Pickup In Store”) channel. BOPIS has been a very popular fulfillment method in modern retail, and it is only continuing to grow and establish itself as the common mode of purchase. Therefore, a big emphasis must be put into making sure the BOPIS pipeline is streamlined and reliable to maximize margins and uphold a good customer shopping experience.
+
 This problem is large in scale and needs a systematic solution. There are over 2,300 physical stores throughout the country, of various sizes and in different regions, being serviced by 10 different distribution centers. Moreover, a physical store comprises of over 30,000 unique products, from horse feed, powertools, pet food, to clothing and lawn care. Lastly, as Tractor Supply Company is a Fortune 500 company, the company stores over millions of sales data, which is good for training but would require a clean, streamlined and scalable ETL process.
 
 ### Solution Proposal
