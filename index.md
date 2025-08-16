@@ -2,14 +2,13 @@
 layout: home
 author_profile: false
 header:
-  overlay_image: "{{ '/assets/images/datascience.png' | relative_url }}"
+  overlay_image: /assets/images/datascience.png
   overlay_filter: 0.25           # darken for contrast
 ---
 
 <!-- Intro Section -->
 <section class="intro">  
   <div class="intro-text">
-    <h1>Rica Esquivel</h1>
     <p class="intro-text">
       <strong>Hi there!</strong> I’m Rica, currently completing my B.S. in Computer Science at Virginia Tech, graduating in December 2025.  
       <br><br>
