@@ -6,7 +6,6 @@ header:
   overlay_image: /assets/images/hiiship.jpg 
   overlay_filter: 0.35
   caption: "USS John C. Stennis (CVN-74) Refueling and Complex Overhaul (RCOH) Tour"
-classes: wide
 ---
 
 June 2024 – August 2024
