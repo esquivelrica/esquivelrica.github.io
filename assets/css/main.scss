@@ -64,6 +64,11 @@
   line-height: 1.6;         // improves text readability 
 }
 
+@media (min-width: 768px) {
+  .intro { flex-direction: row; text-align: left; justify-content: center; }
+  .profile-pic { width: 180px; height: 180px; margin: 0 2rem 0 0; }
+}
+
 /* =========================================
    Header Links (i.e. LinkedIn, Resume, etc)
    ========================================= */

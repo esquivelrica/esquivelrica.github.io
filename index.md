@@ -1,6 +1,9 @@
 ---
 layout: home
-author_profile: true
+author_profile: false
+header:
+  overlay_image: "{{ '/assets/images/home-hero.jpg' | relative_url }}"
+  overlay_filter: 0.25           # darken for contrast
 ---
 
 <!-- Intro Section -->
