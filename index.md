@@ -2,14 +2,12 @@
 layout: home
 author_profile: false
 header:
-  overlay_image: "{{ '/assets/images/home-hero.jpg' | relative_url }}"
+  overlay_image: "{{ '/assets/images/datascience.png' | relative_url }}"
   overlay_filter: 0.25           # darken for contrast
 ---
 
 <!-- Intro Section -->
-<section class="intro">
-  <img src="assets/Profile.png" alt="Profile picture of Rica Esquivel" class="profile-pic">
-  
+<section class="intro">  
   <div class="intro-text">
     <h1>Rica Esquivel</h1>
     <p class="intro-text">
