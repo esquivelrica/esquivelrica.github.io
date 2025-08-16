@@ -4,8 +4,9 @@ permalink: /internships-hii/
 layout: single
 header:
   overlay_image: /assets/images/hiiship.jpg 
-  overlay_filter: 0.25
+  overlay_filter: 0.35
   caption: "USS John C. Stennis (CVN-74) Refueling and Complex Overhaul (RCOH) Tour"
+classes: wide
 ---
 
 June 2024 – August 2024
@@ -20,7 +21,7 @@ June 2024 – August 2024
     <img src="{{ '/assets/logos/matplotlib.svg' | relative_url }}" alt="Pandas" title="Matplotlib">
     <img src="{{ '/assets/logos/scikitlearn.svg' | relative_url }}" alt="Scikit-learn" title="Scikit-learn">
     <img src="{{ '/assets/logos/gensim.png' | relative_url }}" alt="Pandas" title="Gensim">
-    <img src="{{ '/assets/logos/github.svg' | relative_url }}" alt="GitHub" title="GitHub">
+    <img src="{{ '/assets/logos/github.svg' | relative_url }}" alt="GitHub" title="Github">
   </div>
 </section>
 

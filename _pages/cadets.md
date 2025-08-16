@@ -51,13 +51,13 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
 ---
 
 ## Photo Highlights
-<div class="post-previews" style="grid-template-columns: repeat(3, 1fr);">
+<div class="post-previews" style="grid-template-columns: repeat(4, 1fr);">
   <a class="post-preview" href="{{ '/assets/images/milball.jpg' | relative_url }}">
     <img src="{{ '/assets/images/milball.jpg' | relative_url }}" alt="Military Ball">
     <h3>Tradition</h3>
   </a>
   <a class="post-preview" href="{{ '/assets/images/bravostreambank.jpg' | relative_url }}">
-    <img src="{{ '/assets/images/bravostreambank.jpg' | relative_url }}" alt="Bravo Company after Streambank cleanup">
+    <img src="{{ '/assets/images/bravostreambank.jpg' | relative_url }}" alt="Leading Bravo Company on a streambank cleanup">
     <h3>Service</h3>
   </a>
   <a class="post-preview" href="{{ '/assets/images/uniform.JPG' | relative_url }}">
@@ -66,7 +66,7 @@ The Virginia Tech Corps of Cadets shaped how I lead, communicate, and make decis
   </a>
     <a class="post-preview" href="{{ '/assets/images/pt.JPG' | relative_url }}">
     <img src="{{ '/assets/images/pt.JPG' | relative_url }}" alt="Leading physical training sessions">
-    <h3>Leadership Training</h3>
+    <h3>Physical Training</h3>
   </a>
 </div>
 

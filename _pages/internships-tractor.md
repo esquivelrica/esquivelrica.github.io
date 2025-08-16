@@ -19,7 +19,7 @@ May 2025 – August 2025
     <img src="{{ '/assets/logos/jupyter.svg' | relative_url }}" alt="Jupyter Notebook" title="Jupyter Notebook">
     <img src="{{ '/assets/logos/pandas.svg' | relative_url }}" alt="Pandas" title="Pandas">
     <img src="{{ '/assets/logos/scikitlearn.svg' | relative_url }}" alt="Scikit-learn" title="Scikit-learn">
-    <img src="{{ '/assets/logos/github.svg' | relative_url }}" alt="GitHub" title="GitHub">
+    <img src="{{ '/assets/logos/github.svg' | relative_url }}" alt="GitHub" title="Github">
   </div>
 </section>
 

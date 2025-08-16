@@ -6,7 +6,7 @@ main:
   - title: "Resume"
     url: "/assets/Rica_Esquivel_Resume.pdf"
 
-  - title: "GitHub"
+  - title: "Github"
     url: "https://github.com/esquivelrica"
     external: true
 
