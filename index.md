@@ -10,7 +10,7 @@ header:
 <section class="intro">  
   <div class="intro-text">
     <p class="intro-text">
-      <strong>Hi there!</strong> I’m Rica, currently completing my B.S. in Computer Science at Virginia Tech, graduating in December 2025.  
+      <strong>Hi there!</strong> I’m Rica, currently completing my B.S. in Computer Science at Virginia Tech, graduating in December 2025. 
       <br><br>
       I’m a self-driven, motivated, and enthusiastic team player with a passion for data science and is currently aiming for roles like <strong>Data Scientist</strong> and <strong>Machine Learning Engineer</strong> as I start my career post-grad.  
       <br><br>
